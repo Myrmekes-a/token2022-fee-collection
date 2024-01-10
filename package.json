@@ -1,0 +1,22 @@
+{
+  "name": "token-fee-collecting-be",
+  "version": "1.0.0",
+  "author": "black-wyvern-dev",
+  "license": "MIT",
+  "description": "",
+  "main": "bot.ts",
+  "scripts": {
+    "start": "nodemon bot.ts"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.10",
+    "@solana/web3.js": "^1.88.0",
+    "cron": "^3.1.6",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/cron": "^2.4.0",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
+}
